@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: DkqXXEwzmOj2wYEzsrTSTlgbVxbqWKz76xzXa9fzxgDNCTeEsYlavK/M4RMmIV8RnQ1guvOk/pHGkkSn3PjjjXs9t7ECyeUd3vAR9VlKpqvHzW970Vkc/g4REruSwlMAO6wChoNuQDzN75rrsuXyqCeIwE9kQ1wlfqK0b7vfGizkyofJ9J1p5FbHh6+b/bASCKNXYs+ZliYzUv7y25d9ujTbmmdhIIcuztlJzpg9YdY9xzO4TDFxFJEpWib2EUlXYBNTRS6PUfjjhaOAVNvkRdFhsN8Qr+l8V6kPWbOF2eV39LoJC96hb0myetc4Dkd/MJPY+MuAuet0BscTgT1jtmMygC2wJAll9bhqDP/DpLmTt/9K+zXSgfZ/0ObuTPU3gWGoJQ+BL6IYWZ9lgmHY+2mHnm55A/kf3PlEdzCTPx0Suuv58xgJZGF8wB+xeQ0gXC9wG/DvIcvwYX7BGaxG9moN5vQm1F0fD5gQkZ6pl92FojP3HAZtqjSUAePgmrXy7BCqUJb6j7BK5K1txJVUimPq1kscDR3C1Zd5NT2ukuYHRpXhwTaBB7i0bmCa8OuazJE3sItNZqcOxmhsp2Uei7u/ZJtjXsxjaAJ4PaPTK92kk35LQwFFcuhm10K7ipmD09CU+1kkGUnMv6FByqgmNOLMZ3Yaowjxh96xxwqmoko=
+  app: dry-woodland-65886
+  on:
+    repo: Jollendi91/node-recipe-integration-tests
